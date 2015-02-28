@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "RequireJS Test",
+	"version": "0.0.1",
+	"description": "Test RequireJS and the activeTab permission.",
+	"permissions": [
+		"activeTab"
+	],
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"web_accessible_resources": [
+		"js/*",
+		"html/*",
+		"css/*",
+		"img/*"
+	]
+}
